@@ -1,4 +1,5 @@
 * {
+    margin: 0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 body {
@@ -9,6 +10,7 @@ h1 {
     font-weight: 1000;
     text-decoration: underline;
     color: orange;
+    margin-bottom: 6px;
 }
 h2 {
     color: red;
@@ -16,4 +18,13 @@ h2 {
 }
 h3 {
     text-decoration: underline;
+}
+#links {
+    background-color: orange;
+    padding: 8px;
+    text-align: center;
+}
+#links li{
+    display: inline;
+    margin: 6px;
 }
